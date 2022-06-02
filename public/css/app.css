@@ -1,0 +1,21 @@
+.contenitore-film {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  margin: 20px auto 20px auto;
+  padding: 10px;
+  border: 2px solid blue;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titolo-film {
+  font-size: 1.3em;
+  text-transform: uppercase;
+  font-weight: 800;
+}
